@@ -7,11 +7,13 @@
 # 
 # | # | Member Name | Academic ID |
 # |---|---|---|
-# | 1 | | |
-# | 2 | | |
-# | 3 | | |
-# | 4 | | |
-# | 5 | | |
+# | 1 |Reena Aloraini |2220002781 |
+# | 2 |Maria Aljafri  |2230009064 |
+# | 3 |Wala Almukhtar |2230003613 |
+# | 4 |Rawan Alzaid   |2230003194 |
+# | 5 |Dima Alrahal   |2230009044 |
+# | 6 |Sara Alsahli   |2220003277 |  
+
 
 # ## Task 1: Install PyTorch
 # Install PyTorch (and torchvision for the MNIST dataset), then import it into the code.
@@ -597,22 +599,3 @@ print("Reloaded model test accuracy: %.2f%%" % evaluate(reloaded, test_loader)[1
 # In[ ]:
 
 
-# Export the current notebook after saving it (File > Save).
-# If nbconvert is installed, run in a terminal:
-# jupyter nbconvert --to script "Assignment-1_DL_Revised.ipynb"
-print("Notebook ready. Save it before exporting to a .py file.")
-
-
-# ### Upload to GitHub
-# Run these in a terminal (replace the URL with your repository), then paste the repo link into the
-# assignment document and submit via Blackboard:
-# 
-# ```bash
-# git init
-# git add "Assigment-1 DL.ipynb" "Assigment-1 DL.py" best_mnist_model.pth
-# git commit -m "ARTI 502 Assignment 1 - MNIST neural net with PyTorch"
-# git branch -M main
-# git remote add origin https://github.com/<username>/<repo-name>.git
-# git push -u origin main
-# ```
-# **GitHub link:** ___
